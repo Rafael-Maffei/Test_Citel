@@ -5,9 +5,11 @@ por conta disso não consegui uma solução para as perguntas que envolviam filt
 data de nascimento em idade, calcular imc, classificar doadores por tipo sanguíneo, porém não consegui devolver esses atributos para as listas a fim de realizar o filtro dos
 dados nos parâmetros requeridos.
 
-Infelizmente o front não terá tantos dados para exibir por conta desse block que tive, mas a contagem por estados funcionou perfeitamente.
+Infelizmente o front não terá tantos dados para exibir por conta desse block que tive, mas a contagem por estados funcionou perfeitamente, tentei implementar um paginador para
+a tabela, mas sem sucesso.
 Como não havia um protótipo referente ao design do frontend, optei por algo bem simples, que atendesse as necessidades, principalmente por conta do prazo, que já era escasso
 devido ao tempo que passei tentando encontrar uma forma de filtrar as listas.
+
 
 Bom, para rodar o projeto é bem simples: 
 
@@ -22,3 +24,5 @@ encontrado na pasta database (Apenas copiar e colar).
 basta rodar o comando: "npm run start".
 
 6. Para acessar o frontend, agora construído, basta acessar: "http://localhost:4200" (URL padrão do Angular).
+
+![image](https://github.com/Rafael-Maffei/Test_Citel/assets/113271363/df4cbc18-cefa-4628-971b-d89a991d2b4d)
