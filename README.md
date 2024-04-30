@@ -1,9 +1,9 @@
 Este é o resultado final que consegui atingir nesses 7 dias, certamente com um pouco mais de tempo e alguém para tirar as dúvidas teria chegado mais longe.
 
 O maior block que presenciei foi referente ao tratamento das listas de objetos no java, tive um pouco de dificuldade em encontrar documentação sobre, e
-por conta disso não consegui uma solução para as perguntas que envolviam filtragem das listas. As lógicas estam todas implementadas: converter String em LocalDate,
-data de nascimento em idade, calcular imc, classificar doadores por tipo sanguíneo, porém não consegui devolver esses atributos para as listas a fim de realizar o filtro dos
-dados nos parâmetros requeridos.
+por conta disso não consegui uma solução para as perguntas que envolviam filtragem das listas. As lógicas estão todas implementadas: converter String em LocalDate,
+data de nascimento em idade, calcular imc, classificar doadores possíveis para cada tipo sanguíneo, porém não consegui devolver esses atributos para as listas a fim
+de realizar o filtro dos dados nos parâmetros requeridos.
 
 Infelizmente o front não terá tantos dados para exibir por conta desse block que tive, mas a contagem por estados funcionou perfeitamente, tentei implementar um paginador para
 a tabela, mas sem sucesso.
