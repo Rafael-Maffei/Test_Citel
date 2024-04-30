@@ -1,0 +1,45 @@
+<label for= "faixaEtaria">Faixa etária:</label>
+<mat-select [(value)]="selectedAge">
+    <mat-option value="0-10">0 a 10</mat-option>
+    <mat-option value="11-20">11 a 20</mat-option>
+    <mat-option value="21-30">21 a 30</mat-option>
+  </mat-select>
+  <br>
+<label for= "imcMedio">IMC Médio:</label>
+<input type= "number" name= "imcMedio" [value]="imcMedio" disabled = true/>
+<br>
+<label for= "sexo">Sexo:</label>
+<mat-radio-group aria-label="Sexo:">
+    <mat-radio-button value="masculino">Masculino</mat-radio-button>
+    <mat-radio-button value="feminino">Feminino</mat-radio-button>
+  </mat-radio-group>
+<label for= "obesos">Percentual de obesos:</label>
+<input type= "number" name= "obesos" [value]="obesos" disabled = true/>
+<br>
+<label for= "tipo">Tipo sanguíneo:</label>
+<mat-select [(value)]="selectedType">
+    <mat-option value="A+">A+</mat-option>
+    <mat-option value="A-">A-</mat-option>
+    <mat-option value="B+">B+</mat-option>
+    <mat-option value="B-">B-</mat-option>
+    <mat-option value="AB+">AB+</mat-option>
+    <mat-option value="AB-">AB-</mat-option>
+    <mat-option value="O+">O+</mat-option>
+    <mat-option value="O-">O-</mat-option>
+  </mat-select>
+<label for= "idadeMedia">Média de idade:</label>
+<input type= "number" name= "idadeMedia" [value]="idadeMedia" disabled = true/>
+<br>
+<label for= "receptor">Receptor:</label>
+<mat-select [(value)]="selectedReceiver">
+    <mat-option value="A+">A+</mat-option>
+    <mat-option value="A-">A-</mat-option>
+    <mat-option value="B+">B+</mat-option>
+    <mat-option value="B-">B-</mat-option>
+    <mat-option value="AB+">AB+</mat-option>
+    <mat-option value="AB-">AB-</mat-option>
+    <mat-option value="O+">O+</mat-option>
+    <mat-option value="O-">O-</mat-option>
+  </mat-select>
+<label for= "doadores">Quantidade de doadores:</label>
+<input type= "number" name= "doadores" [value]="qtdDoadores" disabled = true/>

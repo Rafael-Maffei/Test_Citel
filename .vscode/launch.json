@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<citelsoftware>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.citelsoftware.Application",
+            "projectName": "citelsoftware",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

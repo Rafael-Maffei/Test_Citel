@@ -1,0 +1,26 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                Qtd. Doadores
+            </th>
+           <th>
+                Estado
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of list">
+            <td>
+                {{item.count}}
+            </td>
+            <td>
+                {{item.estado}}
+            </td>
+        </tr>
+    </tbody>
+</table>
+<mat-paginator [length]="27" class="pag"
+[pageSize]="10"
+aria-label="Select page">
+</mat-paginator>
