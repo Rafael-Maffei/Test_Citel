@@ -50,7 +50,7 @@ public class Doador {
     @Column
     private int numero;
 
-    @Column(length = 30)
+    @Column(length = 60)
     private String bairro;
 
     @Column(length = 30)
