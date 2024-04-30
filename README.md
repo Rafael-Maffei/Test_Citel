@@ -25,4 +25,4 @@ basta rodar o comando: "npm run start".
 
 6. Para acessar o frontend, agora construído, basta acessar: "http://localhost:4200" (URL padrão do Angular).
 
-![image](https://github.com/Rafael-Maffei/Test_Citel/assets/113271363/df4cbc18-cefa-4628-971b-d89a991d2b4d)
+![image](https://github.com/Rafael-Maffei/Test_Citel/assets/113271363/d7c1e6e6-60cc-4ad4-ace9-68e44bcdfb54)
